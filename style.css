@@ -97,16 +97,18 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.Inner {
+  padding: 20% 20%;
+}
 
-.style-container {
-  width: 500px;
+@media only screen and (max-width: 900px) {
+  .Inner {
+    padding: 10% 10%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-  .style-container {
-    width: 350px;
-  }
-  header {
-    display: none;
+  .Inner {
+    padding: 40px 50px;
   }
 }
