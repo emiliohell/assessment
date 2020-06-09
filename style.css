@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -89,4 +89,15 @@ h1 {
   header {
     display: none;
   }
+} */
+
+.Outer {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-container {
+  width: 500px;
 }
