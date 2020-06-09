@@ -111,4 +111,7 @@ h1 {
   .Inner {
     padding: 40px 50px;
   }
+  .k7 > .Outer {
+    height: 120%;
+  }
 }
