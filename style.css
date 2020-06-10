@@ -287,4 +287,8 @@ h1.wiggle:hover {
   .small {
     font-size: 0.6em;
   }
+
+  #footer {
+    height: 40px;
+  }
 }
