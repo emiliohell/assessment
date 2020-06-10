@@ -176,6 +176,11 @@ code {
     font-size: 1.1em;
     line-height: 1.5;
   }
+
+  h3 {
+    font-size: 0.9em;
+  }
+
   #footer,
   #header {
     display: none;
