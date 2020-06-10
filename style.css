@@ -81,7 +81,10 @@ a,
 a.visited {
   color: inherit;
   text-decoration: underline;
-  overflow-wrap: break-word;
+}
+
+.linkBreak {
+  word-break: break-all;
 }
 
 hr {
@@ -231,7 +234,6 @@ code {
     display: none;
   }
   .wrapper {
-    width: 400px;
   }
   p {
     line-height: 1.8;
