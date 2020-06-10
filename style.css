@@ -1,4 +1,4 @@
-/* * {
+* {
   box-sizing: border-box;
 }
 
@@ -7,111 +7,29 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+#header,
+#footer {
   position: fixed;
-  z-index: 500;
-  background-color: #fff;
-  right: 0;
-  left: 0;
-  padding: 10px;
-  overflow: hidden;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: #333;
+  z-index: 9;
   text-align: center;
-  border-bottom: 1px solid #fafafa;
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
 }
 
-header > a {
-  margin: 4px;
-  text-decoration: none;
+#header {
+  top: 0px;
 }
 
-.interpretation {
-  color: blue;
+#footer {
+  bottom: 0px;
 }
 
-.style-container {
-  width: 500px;
-  margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.center {
-  text-align: center;
-}
-
-footer {
-  position: fixed;
-  z-index: 500;
-  background-color: #fff;
-  top: 100%;
-  margin-top: -45px;
-  right: 0;
-  left: 0;
-  padding: 5px;
-  overflow: hidden;
-  text-align: center;
-  border-top: 1px solid #fafafa;
-  font-size: 10px;
-}
-
-ul {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.ulp {
-  clear: both;
-  text-align: center;
-}
-
-.small-text {
-  text-align: center;
-  font-size: 10px;
-  font-style: italic;
-}
-
-.list {
+.wrapper {
   display: flex;
-  justify-content: center;
-}
-
-h1 {
-  font-family: "Playfair Display", serif;
-}
-
-@media only screen and (max-width: 700px) {
-  .style-container {
-    width: 350px;
-  }
-  header {
-    display: none;
-  }
-} */
-
-.Outer {
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Inner {
-  padding: 20% 20%;
-}
-
-@media only screen and (max-width: 900px) {
-  .Inner {
-    padding: 10% 10%;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .Inner {
-    padding: 40px 50px;
-  }
-  .k7 > .Outer {
-    height: 150%;
-  }
+  max-width: 600px;
+  flex-direction: column;
 }
