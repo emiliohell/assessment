@@ -22,7 +22,6 @@ body {
   background-color: var(--white);
   margin: 0;
   font-family: "Roboto", sans-serif;
-  line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(36, 35, 32);
@@ -181,6 +180,7 @@ code {
 @media screen and (max-width: 600px) {
   body {
     font-size: 0.9em;
+    line-height: 1.5;
   }
   #footer,
   #header {
@@ -188,5 +188,8 @@ code {
   }
   .wrapper {
     max-width: 380px;
+  }
+  p {
+    line-height: 1.8;
   }
 }
