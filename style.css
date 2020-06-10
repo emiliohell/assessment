@@ -171,7 +171,11 @@ code {
   width: 100%;
   max-width: 600px;
   height: auto;
-  margin: 10px;
+}
+
+.signaturePic {
+  margin-top: 40px;
+  width: 100px;
 }
 
 /* Color Setting */
