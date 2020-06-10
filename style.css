@@ -31,14 +31,15 @@ body {
 #header,
 #footer {
   position: fixed;
-  height: 50px;
+  height: 30px;
   display: block;
   width: 100%;
-  background: #333;
+  background: var(--white);
   z-index: 9;
   text-align: center;
-  color: #f2f2f2;
-  padding: 20px 0 0 0;
+  color: var(--black);
+  font-size: var(--font-size-xs);
+  /* padding: 20px 0 0 0; */
 }
 
 #header {
@@ -225,6 +226,34 @@ code {
   }
 }
 
+/* Animation */
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+h1.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+
+h1.wiggle:hover {
+  animation: none;
+}
+
 /* Responsiveness */
 
 @media screen and (max-width: 800px) {
@@ -244,10 +273,10 @@ code {
     font-size: 1em;
   }
 
-  #footer,
+  /* #footer,
   #header {
     display: none;
-  }
+  } */
   .wrapper {
     margin-left: 20px;
     margin-right: 20px;
