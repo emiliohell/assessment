@@ -231,8 +231,7 @@ code {
     display: none;
   }
   .wrapper {
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 400px;
   }
   p {
     line-height: 1.8;
