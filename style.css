@@ -152,6 +152,10 @@ code {
   text-align: center;
 }
 
+.image {
+  align-self: center;
+}
+
 /* Color Setting */
 
 .gradient-pink-peach {
