@@ -158,16 +158,20 @@ code {
 
 .image {
   align-self: center;
-  max-width: 300px;
 }
 
 .emilioPic {
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   margin: 10px;
 }
 
 .futurePic {
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 10px;
 }
 
 /* Color Setting */
@@ -219,6 +223,13 @@ code {
 
 /* Responsiveness */
 
+@media screen and (max-width: 800px) {
+  .wrapper {
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 1.1em;
@@ -234,6 +245,8 @@ code {
     display: none;
   }
   .wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   p {
     line-height: 1.8;
